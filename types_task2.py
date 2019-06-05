@@ -10,3 +10,8 @@ numeral_2=int(number%1000/100)
 numeral_1=int(number%10000/1000)
 multiplication=numeral_1*numeral_2*numeral_3*numeral_4
 print("{}*{}*{}*{}={}".format(numeral_1,numeral_2,numeral_3,numeral_4,multiplication))
+reversed_number =numeral_1+ numeral_2*10 + numeral_3*100 + numeral_4*1000
+print("reversed number:{}".format(reversed_number))
+sorted_number=[numeral_1,numeral_2,numeral_3,numeral_4]
+sorted_number.sort()
+print(sorted_number)
