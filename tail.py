@@ -8,7 +8,8 @@
 
 # For Haskell, more specifically, body has the type of String and tail has the type of Char.
 
-
+str="body"
+b=str.lower
 
 def correct_tail(body, tail):
     body = body[0 -1]
